@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dictionary App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Dictionary App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#more">Know more</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#about" >
+                  About
+                </a>
+               
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#contact" >
+                  Contact
+                </a>
+               
+              </li>
+           
+            </ul>
+            <form class="d-flex" role="search">
+              <input id="searchinput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="searchbtn" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="book.svg" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis"><span id="wordsearch" >Searched Word</span></h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4"><span id="definition">Welcome to the dictionary app type the word at top right corner...</span></p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Talk to author</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contribute</button>
+          </div>
+        </div>
+ 
+        <div class="about" id="about">
+            <h2 >About</h2>
+            <div class="maincontent">
+
+          
+            <div class="left">
+
+                <p>
+                    Welcome to Dictionary App, your ultimate companion for exploring language and expanding your vocabulary. We are dedicated to providing a seamless and enriching experience that makes language learning accessible and enjoyable.
+                </p>
+              
+                <p>
+                    Powered by reputable data sources via Rapid API, Dictionary App offers a comprehensive collection of definitions, synonyms, and examples for a vast array of words. Whether you're a student, professional, or language enthusiast, Dictionary App is here to support your linguistic journey.
+                </p>
+            </div>
+           
+        </div>
+        </div>
+        <div class="second" id="more">
+            <h3 class="secondh3">Explore More with Dictionary App</h3>
+            <p class="secondp">Welcome to Dictionary App's "Know More" section! Here you'll find useful information about our app and how it can enhance your language learning experience.</p>
+
+            <div class="second1">
+
+                <!-- div1 -->
+                <div class="left1">
+                    <!-- div1 -->
+                    <h4>Features and Benefits</h4>
+                   
+                        <ul>
+                            <li><span>Comprehensive Definitions</span>Gain access to detailed definitions for thousands of words across multiple languages.</li>
+                            <li><span>Synonyms and Antonym</span> Discover synonyms and antonyms to expand your vocabulary and improve your language proficiency.</li>
+                            <li><span>Voice Search Capability</span> Use voice search to quickly find word definitions hands-free.</li>
+                            <li><span>Daily Word Notifications</span>Receive daily notifications with interesting words to enrich your vocabulary.</li>
+                            <li><span>Offline Access</span> Access dictionary content offline anytime, anywhere, without requiring an internet connection.</li> 
+                        </ul>
+                    
+                    </div>
+                
+
+                <!-- div2 -->
+                <div class="mid">
+                    <div>
+                    <h4>Why Choose Dictionary App?</h4>
+                    <p>Dictionary App is more than just a dictionary. It's your language companion designed to make language learning fun, convenient, and rewarding. Here's why users love Dictionary App
+                    </p>
+                     </div>
+                <ul>
+                    <li><span>User-Friendly Interface</span> Enjoy a clean and intuitive interface that makes word lookup easy and enjoyable.</li>
+                    <li><span>Reliable Content</span> Powered by reputable data sources via Rapid API, our dictionary offers accurate and up-to-date information.</li>
+                        <li><span>Personalized Experience</span>Customize your learning journey with features like bookmarking favorite words and setting language preferences.</li>
+                </ul>
+                </div>
+
+                <!-- div3 -->
+                <div class="right1">
+                    <h4>  Language Learning Tips</h4>
+            <p>Looking to improve your language skills?</p>
+            
+            <p>Here are some tips to enhance your language learning experience</p>
+            <ul>
+            <li><span>Practice Regularly </span> Consistency is key. Make a habit of learning new words daily.</li>
+            <li><span>Contextual Understanding </span>Understand how words are used in sentences to grasp their meanings better.</li>
+            <li><span>Use Flashcards </span>Create flashcards of new words and revise them regularly for better retention.</li>
+            <li><span>Engage with Native Speakers </span>Practice speaking with native speakers to improve pronunciation and fluency.</li>
+            </ul>
+            </div>
+
+
+
+            </div>
+            
+                
+              
+
+            
+        </div>
+      
+
+        <!-- contact us -->
+        <div class="contact1" id="contact">
+            <p>
+                Have questions or feedback about Dictionary App? We'd love to hear from you! Reach out to us at<span class="email"> keshrishubham3905@gmail.com </span>for support, suggestions, or collaboration opportunities.
+            </p>
+        </div>
+<footer>
+    <p>&copy; 2011-2024 DictionaryApp. All Rights Reserved.</p>
+    <p>Made with ❤️ by Shubham Keshri</p>
+</footer>
+
+        <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
+   
+
+   
